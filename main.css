@@ -1,0 +1,24 @@
+
+
+.button-container {
+  display: flex;
+}
+
+.button{
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: black;
+  background-color: lightgray;
+}
+
+.clicked{
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.time{
+  font-size: 60px;
+}
